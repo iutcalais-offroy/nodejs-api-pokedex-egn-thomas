@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/B40PrDvw)
 # Setup du projet
 
 Ce projet est une API REST pour un jeu de cartes Pokemon en ligne avec système de jeu en temps réel. Il utilise *
@@ -360,7 +361,7 @@ Une fois le ticket terminé, créez une **Pull Request** vers la branche `main` 
 
 ### 5. Demander une review
 
-Une fois la PR créée, **demandez au professeur de la reviewer** en assignant @dwizn comme reviewer.
+Une fois la PR créée, **demandez au professeur de la reviewer** en assignant @vfourny comme reviewer.
 
 Le professeur vérifiera :
 
