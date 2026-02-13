@@ -1,11 +1,11 @@
-version: "3.9"
+version: '3.9'
 
 services:
   api:
     build: .
     container_name: node_api
     ports:
-      - "3000:3000"
+      - '3000:3000'
     env_file:
       - .env
     depends_on:
@@ -22,7 +22,7 @@ services:
     volumes:
       - pgdata:/var/lib/postgresql/data
     ports:
-      - "5433:5432"
+      - '5433:5432'
 
 volumes:
   pgdata:
