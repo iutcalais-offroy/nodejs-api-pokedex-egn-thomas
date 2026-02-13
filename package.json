@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "author": "",
   "description": "TCG Pokemon-like Backend Server",
+  "type": "module",
   "main": "dist/index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
@@ -21,7 +22,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "prepare": "husky"
   },
   "dependencies": {
     "@prisma/adapter-pg": "7.1.0",
@@ -34,12 +36,14 @@
     "js-yaml": "4.1.1",
     "jsonwebtoken": "9.0.2",
     "pg": "8.16.3",
-    "prisma": "^7.4.0",
+    "prisma": "^6.19.2",
     "socket.io": "^4.8.3",
     "swagger-ui-express": "5.0.1",
     "uuid": "13.0.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^20.4.1",
+    "@commitlint/config-conventional": "^20.4.1",
     "@eslint/js": "^9.39.2",
     "@types/bcryptjs": "2.4.6",
     "@types/cors": "2.8.17",
@@ -56,6 +60,7 @@
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
+    "husky": "^9.1.7",
     "prettier": "^3.8.1",
     "supertest": "^7.2.2",
     "tsx": "^4.21.0",

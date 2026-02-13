@@ -20,7 +20,7 @@ userRouter.get('/', async (_req: Request, res: Response) => {
 
 // GET: Récupérer un utilisateur par ID
 // Accessible via GET /users/:id
-userRouter.get('/:id', async (req: any, res: Response): Promise<void> => {
+userRouter.get('/:id', async (req: Request, res: Response): Promise<void> => {
   try {
     const { id } = req.params
     const user = await prisma.user.findUnique({
